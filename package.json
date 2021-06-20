@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dev": "ts-node index.ts",
-    "dev:watch": "ts-node-dev --respawn test.ts"
+    "dev:watch": "ts-node-dev --respawn test.ts",
+    "type-check": "tsc --noEmit --skipLibCheck"
   }
 }
