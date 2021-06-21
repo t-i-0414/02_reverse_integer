@@ -1,4 +1,6 @@
-const reverse = (x: number): number => {
+//leetcode.com/problems/reverse-integer/
+
+https: const reverse = (x: number): number => {
   const isNegative = Math.sign(x) === -1;
 
   const raw = isNegative ? -x : x;
